@@ -1,0 +1,73 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: verdana, arial, sans-serif;
+  margin: 2em;
+  background-color: #ABB5D9;
+  color: #0E1428;
+  text-align: center;
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif;
+  font-style: italic;
+  color: #8F2D56;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+#gameButtonArea button {
+  width:200px;
+  height:200px;
+  margin:2px;
+}
+
+.hidden {
+  display: none;
+}
+
+#b1 {
+  background-color: #C1DFF0;
+}
+#b1:active, #b1.lit {
+  background-color: #eaf4fa;
+}
+
+#b2 {
+  background-color: #7E6B8F;
+}
+#b2:active, #b2.lit {
+  background-color: #cac2d1;
+}
+
+#b3 {
+  background-color: #D4E79E;
+}
+#b3:active, #b3.lit {
+  background-color: #eff6db;
+}
+
+#b4 {
+  background-color: #FE6D73;
+}
+#b4:active, #b4.lit {
+  background-color: #ffb9bc;
+}
+
+#b5 {
+  background-color: #297373;
+}
+#b5:active, #b5.lit {
+  background-color: #59C5C5;
+}
+
+#b6 {
+  background-color: #8E518D;
+}
+#b6:active, #b6.lit {
+  background-color: #B57DB4;
+}
